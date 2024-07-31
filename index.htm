@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <h1>Azərbaycanı Kəşf Et</h1>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="slider-sekil">
+                    <img src="img/qebele.png" alt="">
+                </div>
+                <div class="xeritesekil">
+                    <img src="img/qebeleee.png" alt="">
+                </div>
+                <div class="silderyazi">
+                    <h3>Qəbələ</h3>
+                    <p><p>
+                      <span>Mədəniyyəti&amp;Tarixi /</span>
+                      <span>Təbiəti /</span>
+                      <span>Gəzməli yerlər /</span>
+                  </p>
+                    <a href="">Ətraflı</a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="slider-sekil">
+                    <img src="img/ismayilli.jpg" alt="">
+                </div>
+                <div class="xeritesekil">
+                    <img src="img/isamyilli].png" alt="">
+                </div>
+                <div class="silderyazi">
+                    <h3>İsmayıllı</h3>
+                    <p>
+                      <span>Mədəniyyəti&amp;Tarixi /</span>
+                      <span>Təbiəti /</span>
+                      <span>Gəzməli yerlər /</span>
+                  </p>
+                  <a href="">Ətraflı</a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="slider-sekil">
+                    <img src="img/baki.png" alt="">
+                </div>
+                <div class="xeritesekil">
+                    <img src="img/baki=map.png" alt="">
+                </div>
+                <div class="silderyazi">
+                    <h3>Bakı</h3>
+                    <p>
+                      <span>Mədəniyyəti&amp;Tarixi /</span>
+                      <span>Təbiəti /</span>
+                      <span>Gəzməli yerlər /</span>
+                  </p>
+                  <a href="">Ətraflı</a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="slider-sekil">
+                    <img src="img/seki.jpg" alt="">
+                </div>
+                <div class="xeritesekil">
+                    <img src="img/seki2.png" alt="">
+                </div>
+                <div class="silderyazi">
+                    <h3>Şəki</h3>
+                    <p>
+                      <span>Mədəniyyəti&amp;Tarixi /</span>
+                      <span>Təbiəti /</span>
+                      <span>Gəzməli yerlər /</span>
+                  </p>
+                  <a href="">Ətraflı</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- <div class="swiper-pagination"></div> -->
+    </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 5,
+      spaceBetween: 20,
+      loop: false,
+      
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        }, 
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+        1300: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+        }
+        }
+    });
+  </script>
+</body>
+</html>
